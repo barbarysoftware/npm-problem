@@ -1,0 +1,24 @@
+{
+  "name": "fuv-app",
+  "version": "1.0.0",
+  "description": "Feature Upvote Web App UI",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "convert-board-css": "postcss --use postcss-rem-to-responsive-pixel -o ./css/embedded-board.css ./css/board.css"
+  },
+  "license": "UNLICENSED",
+  "private": "true",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "ccatjs": "4.x",
+    "nodemon": "3.x",
+    "postcss": "^8.4.32",
+    "postcss-cli": "8.x",
+    "postcss-custom-properties": "11.x",
+    "postcss-import": "14.x",
+    "postcss-nested": "5.x",
+    "postcss-rem-to-responsive-pixel": "^6.0.1",
+    "shx": "^0.3.4",
+    "tailwindcss": "^3.1.8"
+  }
+}
