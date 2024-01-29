@@ -3,7 +3,7 @@
 1. Install all npm dependencies
 2. Run `npm run convert-board-css`
 
-This makes a copy the file `./css/board.css` called `./css/embedded-board.css` with all rem measurements changed to px
+This copies the file `./css/board.css` to `./css/embedded-board.css` with all rem measurements changed to px
 
 ## The problem
 
